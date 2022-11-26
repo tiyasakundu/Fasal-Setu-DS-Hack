@@ -1,0 +1,41 @@
+.homeTop, .homeMid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+.homeTop h1 {
+    font-size: 44px;
+    width: 45vw;
+    font-family: 'Inter', sans-serif;
+    line-height: 64px;
+    overflow: hidden;
+    margin-top: -75px;
+    position: absolute;
+}
+.homeTop span, .homeMid span {
+    color: rgb(28, 175, 28);
+    font-style: italic;
+}
+.homeTop img {
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 40%;
+}
+.homeMid {
+    margin-top: 100px;
+    padding: 0px;
+}
+.homeMid img {
+    width: 50%;
+}
+.homeMid p {
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    right: 45px;
+    width: 40vw;
+    line-height: 42px;
+    font-weight: 600;
+    margin-top: -25px;
+}

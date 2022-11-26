@@ -1,0 +1,40 @@
+.navbarBody {
+    margin: 0px;
+    height: 105px;
+    background-image: linear-gradient(90deg, #043F16, #538116, #7D932C, #B5AC49);
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+    font-family: 'Inter', sans-serif;
+}
+.navbarBody img {
+    height: 210px;
+    z-index: 4;
+    position: absolute;
+    left: 200px;
+    cursor: pointer;
+}
+
+.navbarLinks {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 55vw;
+    justify-content: space-evenly;
+    height: 105px;
+    position: absolute;
+    right: 0px;
+}
+.navbarLink {
+    text-decoration: none;
+    color: #F3F3F3;
+    transition: all 0.15s linear;
+}
+.navbarLink:hover {
+    color: #F4EC90;
+}
+
+.active {
+    color: #F4EC90;
+}

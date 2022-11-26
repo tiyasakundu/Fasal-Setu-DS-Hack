@@ -1,0 +1,99 @@
+.weatherBody {
+    background-image: radial-gradient(#AEFFDD18 0%, #E5E16135 18%, #EFF0DD25 100%);
+    overflow-y: hidden;
+    width: 100vw;
+    height: calc(100vh - 105px);
+    font-family: 'Inter', sans-serif;
+}
+
+.weatherLoad {
+    color: rgb(254, 187, 17);
+    font-size: 72px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    animation-name: weatherLoading;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes weatherLoading {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.weatherbg img {
+    height: calc(100vh - 105px);
+    position: absolute;
+    right: 0px;
+}
+.weatherTitle {
+    font-family: 'Inter', sans-serif;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.weatherTitle h1 {
+    font-size: 96px;
+}
+.weatherTitle h2 {
+    font-size: 72px;
+}
+
+.weatherBox {
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: fit-content;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    transition: all 0.1s linear;
+}
+.weatherBox:hover {
+    transform: scale(1.025);
+}
+.box1 {
+    right: 700px;
+    top: 250px;
+}
+.currentTemp {
+    text-align: center;
+    margin-top: 10px;
+}
+.currentTemp p {
+    margin-bottom: 10px;
+}
+.cloud {
+    font-size: 56px;
+    color: skyblue;
+}
+.currentTemp h1 {
+    margin-top: 10px;
+    color: gray;
+}
+
+.box2 {
+    right: 450px;
+    top: 150px;
+    max-width: 300px;
+}
+.box2 p{
+    text-align: center;
+}
+.wind {
+    color: sandybrown;
+    font-size: 56px;
+}
+
+.box3 {
+    right: 450px;
+    top: 350px;
+    max-width: 300px;
+}
+.drizzle {
+    color: darkgray;
+    font-size: 56px;
+}
